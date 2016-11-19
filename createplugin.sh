@@ -14,9 +14,10 @@ fi
 mkdir ./tempplugin-${VERSION}
 mkdir ./tempplugin-${VERSION}/EnhancedDigitalOutput-v${VERSION}
 cp -a ./edo/* ./tempplugin-${VERSION}/EnhancedDigitalOutput-v${VERSION}
-cd ./tempplugin-${VERSION}
-zip -r EnhancedDigitalOutput-v${VERSION}.zip EnhancedDigitalOutput-v${VERSION}
-cd ..
+here=$( pwd )
+cd ./tempplugin-${VERSION}/EnhancedDigitalOutput-v${VERSION}
+zip -r ../EnhancedDigitalOutput-v${VERSION}.zip .
+cd $here
 cp ./tempplugin-${VERSION}/EnhancedDigitalOutput-v${VERSION}.zip files
 shasum ./tempplugin-${VERSION}/EnhancedDigitalOutput-v${VERSION}.zip
 
