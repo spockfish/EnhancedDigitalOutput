@@ -104,6 +104,9 @@ function registerApplet(meta)
 		log:info("installing init.d script")
 		os.execute("mv /usr/share/jive/applets/EnhancedDigitalOutput/rcS.local /etc/init.d")
 		os.execute("chmod 755 /etc/init.d/rcS.local")
+		log:info("installing Fab4 Meta file")
+		os.execute("mv /usr/share/jive/applets/EnhancedDigitalOutput/SqueezeboxFab4Meta.lua /usr/share/jive/applets/SqueezeboxFab4")
+		os.execute("chmod 544 /usr/share/jive/applets/SqueezeboxFab4/SqueezeboxFab4Meta.lua")
         end
 
 	-- if usb hack then set kernel option

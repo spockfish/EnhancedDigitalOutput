@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# kernel optimize script
-# makes things work on Roon
-# (c) 2016 Harry ten Berge
+# this script optimizes the kernel to make it work with Roon
+#
+# (c) 2016 <htenberge@gmail.com>
 
 logger 'Optimizing SB Touch...'
 
