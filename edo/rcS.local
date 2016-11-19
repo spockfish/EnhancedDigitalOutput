@@ -1,4 +1,8 @@
-# v1 optimize script
+#!/bin/sh
+
+# kernel optimize script
+# makes things work on Roon
+# (c) 2016 Harry ten Berge
 
 logger 'Optimizing SB Touch...'
 

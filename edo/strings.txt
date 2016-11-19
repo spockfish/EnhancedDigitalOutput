@@ -86,6 +86,9 @@ BUFFER_VLARGE
 
 BUFFER_VLRAND
 	EN	Very Large + Randomise CPU (USB Only)
+	
+BUFFER_ROON
+	EN	Custom Roon Buffer
 
 REBOOTING
 	EN	Rebooting

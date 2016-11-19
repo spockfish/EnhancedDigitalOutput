@@ -42,8 +42,8 @@ end
 function defaultSettings(self)
 	return {
 		playbackDevice = "default",
-		bufferTime = 20000,
-		periodCount = 2,
+		bufferTime = 100000,
+		periodCount = 4,
 		autoKernelUpdate = true,
 		embeddedTTHack = false,
 		cpuIdleFullspeed = false,
