@@ -15,6 +15,8 @@ mkdir ./tempplugin-${VERSION}
 mkdir ./tempplugin-${VERSION}/EnhancedDigitalOutput-v${VERSION}
 cp -a ./edo/* ./tempplugin-${VERSION}/EnhancedDigitalOutput-v${VERSION}
 cd ./tempplugin-${VERSION}
-zip -r EnhancedDigitalOutput-v${VERSION}.zip EnhancedDigitalOutput-v0.9.1
+zip -r EnhancedDigitalOutput-v${VERSION}.zip EnhancedDigitalOutput-v${VERSION}
 cd ..
+cp ./tempplugin-${VERSION}/EnhancedDigitalOutput-v${VERSION}.zip files
+shasum ./tempplugin-${VERSION}/EnhancedDigitalOutput-v${VERSION}.zip
 

@@ -98,6 +98,14 @@ function registerApplet(meta)
 		os.execute("chmod 755 /usr/bin/jive_alsa")
 	end
 
+        -- check if the other hacks are in place
+        local hacks = io.open("/usr/share/jive/applets/EnhancedDigitalOutput/rcS.local", "r")
+        if hacks then
+		log:info("installing init.d script")
+		os.execute("mv /usr/share/jive/applets/EnhancedDigitalOutput/rcS.local /etc/init.d")
+		os.execute("chmod 755 /etc/init.d/rcS.local")
+        end
+
 	-- if usb hack then set kernel option
 	if settings.embeddedTTHack then
 		_write("/sys/module/snd_usb_audio/parameters/async_embedded_tt_hack", "1")
