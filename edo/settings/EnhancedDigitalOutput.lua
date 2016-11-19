@@ -1,0 +1,1 @@
+settings = {autoKernelUpdate=false,firstUse=false,periodCount=4,embeddedTTHack=false,cpuIdleFullspeed=false,bufferTime=999999999,playbackDevice="TXRX",}
