@@ -13,7 +13,7 @@
           <desc  lang="EN">Support for external USB Dacs and up to 192kHz sampling rates with the digital output.  Note: this app will install a custom linux kernel.  It will also disable analog when using usb/digital out.</desc>
           <creator>Triode</creator>
           <email>htenberge@gmail.com</email>
-          <url>http://home.ten-berge.org:5000/edo/EnhancedDigitalOutput-v0.9.1.zip</url>
+          <url>https://github.com/spockfish/EnhancedDigitalOutput/raw/master/files/EnhancedDigitalOutput-v0.9.1.zip</url>
           <sha>cbe0b262c9f26305f0a2c532a570d084c19ee254</sha>
         </applet>
 
